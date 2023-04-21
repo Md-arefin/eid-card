@@ -1,0 +1,40 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Pacifico', cursive;
+    margin: 50px auto;
+}
+
+.eid-card {
+    text-align: center;
+    box-shadow: 0 0 10px 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: fit-content;
+}
+
+.card-text {
+    letter-spacing: 1px;
+    background: linear-gradient(to right, yellow, tomato, #5485d0, #64f388);
+    color: transparent;
+    background-size: 700% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite alternate;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
